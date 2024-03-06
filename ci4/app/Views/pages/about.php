@@ -11,27 +11,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
 </head>
-
-<?php
-  echo link_tag('css/style.css');
-
-  $script = [
-    'defer' => null,
-    'src' => 'javascript/about.js', 
-  ];
-
-  echo script_tag($script);
-?>
-
 <body>
   <header class="header">
     <a href="#" class="logo">SaiDa</a>
     <nav class="navbar">
-      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/home" class="font-effect-neon">Home</a>
-      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/about" class="font-effect-neon">About</a>
-      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/gallery" class="font-effect-neon">Gallery</a>
-      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/guest" class="font-effect-neon">Guests</a>
-      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/resources" class="font-effect-neon">References</a>
+      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/home.php" class="font-effect-neon">Home</a>
+      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/about.php" class="font-effect-neon">About</a>
+      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/gallery.html" class="font-effect-neon">Gallery</a>
+      <a href="#" class="font-effect-neon">Guests</a>
+      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/resources.html" class="font-effect-neon">References</a>
     </nav>
   </header>
   <img id="singlepic" src="Profile.jpg" alt="Portrait of Angela Tauyan" width="300px" height="300px" class="center">
@@ -130,3 +118,25 @@
       familyName("Steph");
     ?>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Solitary", "Profile", "Dump"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <footer id="resfoot">
+        <div class="row">
+            <div class="column">
+                    <button class="neon-button" onclick="showDateTime()">Date and Time</button>
+                    <p id="dateTime"></p>
+            </div>
+    </footer>
+
+    <script src="about.js"></script>
+
+</body>
+</html>
