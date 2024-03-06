@@ -39,6 +39,7 @@
         <h1> SaiDa's <span class="auto-input"></h1>
         <p> IT Student · Sporty · Once · Blink · MY </p>
     </div>
+    <img src="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/images/Profile.jpg">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typed = new Typed(".auto-input", {
