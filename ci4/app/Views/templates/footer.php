@@ -6,7 +6,7 @@
             </div>
     </footer>
 
-    <script src="about.js"></script>
+    <script src="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/javascript/about.js"></script>
 
 </body>
 </html>
