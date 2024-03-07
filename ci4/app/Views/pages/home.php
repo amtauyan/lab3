@@ -1,5 +1,4 @@
 <link rel="stylesheet" type="text/css" href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/css/home.css">
-<img src="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/images/bg.jpeg" class="body">
 <body>
     <header class="header">
         <a href="#" class="logo">SaiDa</a>

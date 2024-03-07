@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Introduction</title>
-  <link rel="stylesheet" type="text/css" href="guest.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
-</head>
 <body>
     <header class="header">
     <a href="#" class="logo">SaiDa</a>
     <nav class="navbar">
-      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/home.php" class="font-effect-neon">Home</a>
-      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/about.php" class="font-effect-neon">About</a>
-      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/gallery.html" class="font-effect-neon">Gallery</a>
-      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/guest.php" class="font-effect-neon">Guests</a>
-      <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/resources.html" class="font-effect-neon">References</a>
+      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/home" class="font-effect-neon">Home</a>
+      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/about" class="font-effect-neon">About</a>
+      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/gallery" class="font-effect-neon">Gallery</a>
+      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/guests" class="font-effect-neon">Guests</a>
+      <a href="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/resources" class="font-effect-neon">References</a>
     </nav>
   </header>
 
