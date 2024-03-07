@@ -238,3 +238,30 @@ button {
 .neon-button:focus::after {
   opacity: 1;
 }
+
+.white-button {
+  background-color: white;
+  color: black; /* Text color */
+  border: 2px solid white; /* White border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 16px; /* Padding */
+  font-size: 14px; /* Font size */
+}
+
+.smaller {
+  font-size: 12px; /* Adjusting font size to be smaller */
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center; /* Centering horizontally */
+  align-items: center; /* Centering vertically */
+  height: 100px; /* Adjust this value according to your design */
+}
+
+/* Additional style to ensure button occupies its own line */
+.centered button {
+  margin: auto;
+  display: block;
+}

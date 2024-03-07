@@ -27,6 +27,7 @@
     <h3>No Guests</h3>
     <p>Unable to find any guest for you.</p>
     <?php endif ?>
+    <br>
+    <button class="smaller white-button" onclick="window.location='https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/guests/new';">Be a new guest</button>
   </div>
-
   <script src="https://verbose-robot-6995g7vp6qppc49gp-8080.app.github.dev/lab3/ci4/public/javascript/about.js"></script>
